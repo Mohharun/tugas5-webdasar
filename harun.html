@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>volume calculation</title>
+</head>
+<body>
+    <div id="balok" class="calculation">
+        <h2>Volume Balok</h2>
+        <div id="volumeBalok"></div>
+        <input type="number" nama="panjang" id="panjang" placeholder="masukan panjang balok">
+        <input type="number" nama="lebar" id="lebar" placeholder="masukan lebar balok">
+        <input type="number" nama="tinggi" id="tinggi" placeholder="masukan tinggi balok">
+        <br>
+        <br>
+        <button onclick="vbalok()">hitung</button>
+        <p id="hasilvolumebalok"></p>
+        <br>
+        <br>
+    </div>
+    <div id="kubus" class="calculation">
+        <h2>Volume Kubus</h2>
+        <div id="volumeKubus"></div>
+        <input type="number" nama="sisi" id="sisi" placeholder="masukan sisi kubus">
+        <br>
+        <br>
+        <button onclick="vkubus()">hitung</button>
+        <p id="hasilvolumekubus"></p>
+        <br>
+        <br>
+    </div>
+    <div id="prismaSegitiga" class="calculation">
+        <h2>Volume Prisma Segitiga</h2>
+        <div id="volumePrismaSegitiga"></div>
+        <input type="number" nama="panjangSegitiga" id="panjangSegitiga" placeholder="masukan panjang Segitiga prismaSegitiga">
+        <input type="number" nama="tinggiSegitiga" id="tinggiSegitiga" placeholder="masukan tinggi Segitiga prismaSegitiga">
+        <input type="number" nama="tinggiPrismasegitiga" id="tinggiPrismasegitiga" placeholder="masukan tinggi Prisma prismaSegitiga">
+        <br>
+        <br>
+        <button onclick="vprismasegitiga()">hitung</button>
+        <p id="hasilvolumeprismasegitiga"></p>
+        <br>
+        <br>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
